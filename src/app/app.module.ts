@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './background/background.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import { TablaComponent } from './tabla/tabla.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
@@ -19,7 +18,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppComponent,
     BackgroundComponent,
     ToolbarComponent,
-    TablaComponent
+
   ],
   imports: [
     BrowserModule,
