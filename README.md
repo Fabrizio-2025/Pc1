@@ -1,27 +1,51 @@
 # Pc1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+Para instalar Angular, nos ubicamos en la carpeta donde queremos ubicar el proyecto y excribimos : 
 
-## Development server
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Despues nos saldra
 
-## Code scaffolding
+![](C:\Users\Usuario\AppData\Roaming\marktext\images\2023-04-20-19-59-28-image.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+lo cual nos da a entender que ya se instalo ``Angular``
 
-## Build
+Podremos confirmar que esta instalado, con el siguiente comando :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng version
+```
 
-## Running unit tests
+el cual nos mostrara el siguiente grupo de caracteres : 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](C:\Users\Usuario\AppData\Roaming\marktext\images\2023-04-20-20-01-44-image.png)
 
-## Running end-to-end tests
+#Despues de instalar ``Angular`` procederemos a crear nuestro proyecto con el comando :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng new pc1
+```
 
-## Further help
+ en la carpeta que querramos trabajar.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Nos saldran 2 opciones a elegir y optaremos por :
+
+![](C:\Users\Usuario\AppData\Roaming\marktext\images\2023-04-20-20-11-38-image.png)
+
+Con eso ya estaria instalado ``Angular`` en nustro proyecto,  lo notaremos con :
+
+![](C:\Users\Usuario\AppData\Roaming\marktext\images\2023-04-20-20-13-17-image.png)
+
+# Agregamos Angular Material con el siguiente comando :
+
+```bash
+ng add @angular/material
+```
+
+y aceptamos las siguientes opciones : 
+
+![](C:\Users\Usuario\AppData\Roaming\marktext\images\2023-04-20-20-20-14-image.png)
+
+con esto habremos instado ``Angular`` y ``Angular Material`` en nuestro proyecto llamado ``pc1``
